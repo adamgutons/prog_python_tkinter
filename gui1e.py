@@ -10,4 +10,5 @@ fill option
   	can be used to stretch the widget to occupy all of its allocated space
 """
 Label(text='Helo GUI world!').pack(expand=YES, fill=BOTH)
+Label(text='Helo GUI world label 2!').pack(expand=YES, fill=BOTH)
 mainloop()

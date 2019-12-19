@@ -10,7 +10,10 @@ class Quitter(Frame):
 
 	def quit(self):
 		ans = askokcancel('Verify exit', "Really quit?")
-		if ans: Frame.quit(self)
+		if ans: 
+			Frame.quit(self)
+		else:
+			return 56
 
 
 if __name__ == '__main__':

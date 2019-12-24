@@ -2,7 +2,7 @@ from Tkinter import *
 
 """
 root = Tk()
-labelfont = ('times', 20, 'overstrike')
+labelfont = ('times', 02, 'overstrike')
 widget = Label(root, text="Hello config world!")
 widget.config(bg='black', fg='yellow')
 widget.config(font=labelfont)
